@@ -22,4 +22,4 @@ pnpm preview
 
 ## Публикация на GitHub Pages
 
-Workflow в `.github/workflows/deploy.yml` публикует сайт при каждом push в `main`. Репозиторий настроен для адреса `https://<владелец>.github.io/autocost-kz/`.
+GitHub Pages публикует собранную версию сайта из папки `docs` ветки `main`. Перед обновлением сайта выполните `pnpm build`, затем замените содержимое `docs` на содержимое `dist` и отправьте изменения в `main`.
